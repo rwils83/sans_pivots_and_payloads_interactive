@@ -1,0 +1,116 @@
+body {
+    display: grid;
+    grid-template-rows: 50px 150px 50px 150px 50px 150px 50px 150px 50px 150px;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    background-color: black;
+    grid-row-gap: 5px;
+}
+.header {
+    vertical-align: middle;
+    text-align: center;
+
+}
+#header1 {
+    grid-row: 1;
+    grid-column: 1/9;
+    background-color: grey;
+    color: white;
+    border:1px solid white;
+}
+#row1 {
+    margin-bottom: 10px;
+    grid-row: 2;
+    grid-column: 1/10;
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 300px;
+
+}
+#row1 > .space {
+    background-color: darkgrey;
+    border: 1px solid black;
+}
+#row2 > .space {
+    background-color: peachpuff;
+}
+#row3 > .space {
+    background-color: lightsteelblue;
+}
+#row4 > .space {
+    background-color: lightcoral;
+}
+#row5 > .space {
+    background-color: lightskyblue;
+
+}
+.space {
+    border: 1px solid white;
+    background-color: green;
+    text-align: center;
+}
+#header2 {
+    grid-row: 3;
+    grid-column: 1/11;
+    background-color: orange;
+    color: white;
+}
+#row2 {
+    grid-row: 4;
+    grid-column: 1/10;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+}
+#header3 {
+    grid-row: 5;
+    background-color: lightskyblue;
+    color:white;
+    grid-column:1/7;
+}
+#header3_2 {
+    grid-row: 5;
+    background-color: royalblue;
+    color:white;
+    grid-column: 7/11;
+}
+#row3 {
+    grid-row: 6;
+    grid-column: 1/10;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+}
+#header4 {
+    grid-row: 7;
+    background-color: red;
+    color: white;
+    grid-column:1/5;
+}
+#header4_2 {
+    grid-row: 7;
+    background-color: green;
+    color:white;
+    grid-column: 5/11;
+}
+#row4 {
+    grid-row: 8;
+    grid-column: 1/10;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+}
+#header5 {
+    grid-row: 9;
+    background-color: purple;
+    color:white;
+    grid-column:1/5;
+}
+#header5_2 {
+    grid-row: 9;
+    background-color: cornflowerblue;
+    color:white;
+    grid-column: 5/11;
+}
+#row5 {
+    grid-row: 10;
+    grid-column: 1/10;
+    display: grid;
+    grid-template-columns: 300px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+}
