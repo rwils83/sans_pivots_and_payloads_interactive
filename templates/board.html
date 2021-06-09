@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Board Design</title>
+    <link rel="stylesheet" href="../static/testing_board.css">
+</head>
+<body>
+<div class="header" id="header1">
+    <div id="Report"><h3>Reporting</h3></div>
+</div>
+<div class="row" id="row1">
+    <div class="space" id="1"><h3>User your packet capture to help show network trust relationships</h3></div>
+    <div class="space" id="2"><h3>You didn't take enough screenshots</h3><h4 style="color: indianred;"> Roll Dice, Skip that many turns</h4></div>
+    <div class="space" id="3"><h3>You took screenshots the entire time! Good job</h3></div>
+    <div class="space" id="4"><h3>Your notes were well written and easy to follow</h3></div>
+    <div class="space" id="5"><h3>Your proofreader has the week off, <span style="color: indianred;">SKIP NEXT TURN</span> while you find a replacement</h3> </div>
+    <div class="space" id="6"><h3>You add the target Org's alerts to show they have detection capabilities</h3></div>
+    <div class="space" id="7"><h3>Target Org likes draft report! Gives feedback in a timely manner</h3></div>
+    <div class="space" id="8"><h3>Target Org wants you to present findings to board. <span style="color: indianred;">Skip next turn to prepare</span> </h3></div>
+    <div class="space" id="910"><h2>Engagement Finished</h2></div>
+</div>
+
+<div class="header" id="header2">
+    <div id="Post"><h3>Post-Exploitation</h3></div>
+</div>
+<div class="row" id="row2">
+    <div class="space" id="9"><h3>Host Blue Team catches you</h3><h3 style="color: indianred;">SKIP NEXT TURN</h3></div>
+    <div class="space" id="10"><h3>DLP is only looking at email, so you can exfil data with ease</h3></div>
+    <div class="space" id="11"><h3>You find SQL injection on internal web app</h3></div>
+    <div class="space" id="12"><h3>Target Org sees your process injection</h3><h3 style="color: indianred;"> GO BACK 3 SPACES</h3> </div>
+    <div class="space" id="13"><h3>You are able to set up a passive listener on client network</h3></div>
+    <div class="space" id="14"><h3>Get additional credentials from configuration files</h3></div>
+    <div class="space" id="15"><h3>Look through local system and network shares for interesting files</h3></div>
+    <div class="space" id="16"><h3>Outbound firewall configuration limits access</h3><h3 style="color: indianred;">GO BACK 2 SPACES</h3> </div>
+    <div class="space" id="17"><h3>That was a honey doc! Busted</h3><h3 style="color: indianred;">SKIP NEXT TURN</h3> </div>
+    <div class="space" id="18"><h3>Enumerate users and grab more password hashes</h3></div>
+</div>
+<div class="header" id="header3">
+<h3>Exploitation</h3></div>
+    <div class="header" id="header3_2"><h3>Pivoting</h3></div>
+<div class="row" id="row3">
+    <div class="space" id="19"><h3>Find GitHub Repo with working exploit</h3></div>
+    <div class="space" id="20"><h3>Exploit causes app to crash, client mad</h3><h3 style="color: indianred;">SKIP NEXT TURN</h3></div>
+    <div class="space" id="21"><h3>Your custom payload evades AV and IDS</h3></div>
+    <div class="space" id="22"><h3>Misconfigured Service; no exploit required</h3></div>
+    <div class="space" id="23"><h3>Firewall stops stager from calling home</h3><h3 style="color: indianred;">GO BACK 2 SPACES</h3> </div>
+    <div class="space" id="24"><h3>You create your own 0-day</h3></div>
+    <div class="space" id="25"><h3>DNS cache shows systems already communicating</h3></div>
+    <div class="space" id="26"><h3>Target ORG didnt segment networks appropriately; you can pivot with ease</h3></div>
+    <div class="space" id="27"><h3>Target Orgs SOC detects your lateral movement</h3><h3 style="color: indianred">SKIP NEXT TURN</h3> </div>
+    <div class="space" id="28"><h3>Target Org is not reviewing NetFlow data; you remain undetected</h3></div>
+</div>
+<div class="header" id="header4"><h3>Password Attacks</h3></div>
+    <div class="header" id="header4_2"><h3>Scanning</h3></div>
+<div class="row" id="row4">
+    <div class="space" id="29"><h3>Cracked service account password</h3></div>
+    <div class="space" id="30"><h3>Target org's admin accounts use MFA<span style="color:indianred;">GO BACK 2 SPACES</span></h3></div>
+    <div class="space" id="31"><h3>You use a honey account and get caught<span style="color:indianred;">SKIP NEXT TURN</span></h3></div>
+    <div class="space" id="32"><h3>Crack passwords with Hashcat</h3></div>
+    <div class="space" id="33"><h3>Steal hashes with Metasploit hashdump</h3></div>
+    <div class="space" id="34"><h3>You forget to throttle scan and create disruption<span style="color:indianred;">SKIP NEXT TURN</span></h3></div>
+    <div class="space" id="35"><h3>Discover unpatched remote exploit</h3></div>
+    <div class="space" id="36"><h3>Verify findings from search engine recon</h3></div>
+        <div class="space" id="37"><h3>Target Org's MSSP detects your scans<span style="color: indianred;">GO BACK 2 SPACES</span></h3></div>
+    <div class="space" id="38"><h3>You Discover large number of open TCP and UDP ports</h3></div></div>
+<div class="header" id="header5"><h3>Scoping & Rules of engagement</h3></div>
+    <div class="header" id="header5_2"><h3>Reconnaissance</h3></div>
+<div class="row" id="row5">
+    <div class="space" id="1_2"><h2>START</h2></div>
+    <div class="space" id="39"><h3>Scoping Call went great!</h3></div>
+    <div class="space" id="40"><h3>Target organization provides lists of systems to attack</h3></div>
+    <div class="space" id="41"><h3>Target organization gives your "victory conditions"</h3></div>
+    <div class="space" id="42"><h3>Client wants to modify scope<br><br><span style="color:indianred;">GO BACK TO START</span></h3></div>
+    <div class="space" id="43"><h3>Shodan.io helps you find potential vulnerabilities</h3></div>
+        <div class="space" id="44"><h3>You interacted with a honey pot<br><br><span style="color: indianred;">SKIP NEXT TURN</span></h3></div>
+    <div class="space" id="45"><h3>Target organization DNS Server allows external zone transfers</h3></div>
+    <div class="space" id="46"><h3>Search engines reveal data exposure</h3></div>
+</div>
+<script src="../static/testing_board.js"></script>
+
+</body>
+</html>
